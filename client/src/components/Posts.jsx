@@ -30,12 +30,12 @@ const Posts = ({ loggedIn, clientId, setLoginStatus }) => {
                         <ul key={post + index}>
                             <ul className={"postUl"} onClick={() => {
                                 getBlogComments(post.id)
-                            }} >{post.title}</ul>
+                            }}>{post.title}</ul>
                             
                             {
                                 comments.length ? comments.map((comment) => {
                                     return +post.id === +comment.postId? (
-                                        <ol className="postOl">
+                                        <ol className="postOl"  key={comment.id}>
                                             <li>{comment.body}</li>
                                         </ol>
                                     ) : null
