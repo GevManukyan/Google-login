@@ -1,0 +1,50 @@
+body{
+    display: grid;
+    place-items: center;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.postUl{
+    border: 2px solid black;
+    border-radius: 5px ;
+    width: 400px;
+    list-style-type: none;
+    margin-right: 50px;
+    border-color: #4285f4 #34a853 #fbbc05 #ea4335;
+    cursor: pointer;
+}
+.postOl{
+    width: 400px;
+    list-style: none;
+    border-bottom: 1px solid ;
+    opacity: 0;
+    animation-name: anim;
+    animation-duration:1.5s ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anim {
+    from{opacity: 0;}
+    to{ opacity: 1;}
+}
+
+.le{
+    color: #34a853 ;
+    
+}
+
+.o{
+    color: #fbbc05;
+}
+.g1{
+    color: #ea4335;
+}
+.g2{
+    color: #4285f4;
+}
+.logOut{
+    margin-left: 200px;
+}
