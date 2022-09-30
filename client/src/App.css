@@ -31,19 +31,26 @@ body{
     to{ opacity: 1;}
 }
 
-.le{
+.l{
     color: #34a853 ;
     
 }
-
-.o{
-    color: #fbbc05;
+.o1{
+    color: #ea4335;
 }
 .g1{
-    color: #ea4335;
+    
+    color: #4285f4;
 }
 .g2{
     color: #4285f4;
+}
+.o2{
+    color: #fbbc05;
+}
+.e{
+    color: #ea4335;
+
 }
 .logOut{
     margin-left: 200px;

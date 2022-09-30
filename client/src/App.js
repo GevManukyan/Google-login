@@ -28,7 +28,7 @@ export default function App() {
   
   return (
     <div className="App">
-      <h1 >Login with <span className="g1">Go</span><span className="o">o</span><span className="g2">g</span><span className="le">le</span></h1>
+      <h1 >Login with <span className="g1">G</span><span className="o1">o</span><span className="o2">o</span><span className="g2">g</span><span className="l">l</span><span className="e">e</span></h1>
       {!loginStatus && (
         <GoogleLogin
           clientId={clientId}
